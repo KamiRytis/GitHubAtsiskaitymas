@@ -24,7 +24,7 @@
 }
 @media (min-width: 576px){
     .tab > iframe{
-        height: 200px;
+        height: 400px;
     }
 }
 #tabImage > img{
@@ -33,7 +33,7 @@
 }
 @media (min-width: 576px){
     #tabImage > img{
-        height: 200px;
+        height: 400px;
     }
 }
 .tab > h1{
