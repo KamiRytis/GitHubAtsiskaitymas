@@ -1,0 +1,10 @@
+#closeBtn >img:hover{
+    transform: rotate(90deg);
+    transition: all 0.5s ease-in-out;
+}
+.text >p >a:hover{
+    color: rgb(77, 138, 229);
+}
+.menu > ul > a:hover{
+    background-color: rgb(198, 201, 203, 0.3);
+}

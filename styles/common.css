@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
 @import url("./tabs.css");
 @import url("https://csstools.github.io/normalize.css/11.0.0/normalize.css");
+@import url("hovers.css");
 
 *{
     padding: 0;
