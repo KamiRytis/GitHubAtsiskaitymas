@@ -21,15 +21,3 @@
     --margin4: 2rem;
 
  }
- /* Mobile */
-@media (max-width: 576px){
-    :root{
-       --padding-sides: 0 1rem;
-    }
- }
- /* Desktop */
- @media (max-width: 1600px){
-    :root{
-       --padding-sides: 0 3rem;
-    }
- }
