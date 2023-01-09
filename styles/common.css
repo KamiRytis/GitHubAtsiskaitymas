@@ -2,6 +2,7 @@
 @import url('./linijos.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
 @import url("./tabs.css");
+@import url("https://csstools.github.io/normalize.css/11.0.0/normalize.css");
 
 *{
     padding: 0;
@@ -21,4 +22,10 @@
     --margin3: 1.5rem;
     --margin4: 2rem;
 
+ }
+ .noDisplay{
+   display: none;
+ }
+ .display{
+   display: block;
  }
