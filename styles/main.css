@@ -1,4 +1,3 @@
-@import url('./linijos.css');
 #mainPage{
     width: 100%;
     height: 100vh;
@@ -60,25 +59,3 @@
 .menu > ul :last-child{
     border-radius: 0 5px 5px 0;
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
- }
- :root{
-    --padding1: 0.5rem;
-    --padding2: 1rem;
-    --padding3: 1.5rem;
-    --padding4: 2rem;
-    --padding-sides: 0 20rem;
- 
-    --margin1: 0.5rem;
-    --margin2: 1rem;
-    --margin3: 1.5rem;
-    --margin4: 2rem;
- 
- 
-    --size-mobile: 576px;
-    --size-desktop: 1400px
-
- }
