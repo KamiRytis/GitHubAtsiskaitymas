@@ -18,7 +18,7 @@
 }
 .text{
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     text-transform: uppercase;
     color: white;
     font-size: larger;
@@ -26,14 +26,22 @@
     padding-top: 21px;
 }
 .text > h1{
-    margin: 20px 0 20px;
+    margin: 30px 0 20px;
+    font-weight: 500;
+    font-size: 30px;
 }
 .text > p{
-    margin:0 10px 20px;
-    text-align: justify
+    margin:30px 10px 30px;
+    text-align: justify;
+    line-height: 40px;
+    font-weight: 100;
 }
 .text > p > a{
     color: white;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 0.95px;
+    overflow: hidden;
+    text-underline-offset: 5px;
 }
 .menu{
     margin-bottom: 20px;
@@ -46,12 +54,13 @@
     padding-top: 40px;
 }
 .menu > ul > a{
-    width: 80%;
+    width: 97%;
     height: 40px;
     border: 1px solid white;
     text-decoration: none;
     line-height: 40px;
     color: white;
+    font-weight: 100;
 }
 .menu > ul :first-child{
     border-radius: 5px 0 0 5px;

@@ -20,6 +20,8 @@
     transform: translateY(-20px);
 }
 .horizontalLine{
+    width: 97%;
+    margin: 0 auto;
     color: white;
     height: 1.5px;
     border: 0;
