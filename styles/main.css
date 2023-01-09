@@ -16,31 +16,48 @@
     background-position: center;
     background-size: cover;
 }
-.gem{
-    width: 60px;
-    height: 60px;
-    border: 1.5px solid white;
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.gem > img{
-    width: 25px;
-    height: 25px;
-}
-.verticalLine{
-    border-left: 1.5px solid white;
-    height: 60px;
-    position: absolute;
-    left: 50%;
-}
-.upperHorizontalLine{
+.text{
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     color: white;
-    height: 1.5px;
-    border: 0;
-    border-top: 1.5px solid white;
+    font-size: larger;
+    font-family: sans-serif;
+    padding-top: 21px;
+}
+.text > h1{
+    margin: 20px 0 20px;
+}
+.text > p{
+    margin:0 10px 20px;
+    text-align: justify
+}
+.text > p > a{
+    color: white;
+}
+.menu{
+    margin-bottom: 20px;
+}
+.menu > ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.menu > ul > a{
+    width: 80%;
+    height: 40px;
+    border: 1px solid white;
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+}
+.menu > ul :first-child{
+    border-radius: 5px 0 0 5px;
+}
+.menu > ul :last-child{
+    border-radius: 0 5px 5px 0;
 }
 *{
     padding: 0;
