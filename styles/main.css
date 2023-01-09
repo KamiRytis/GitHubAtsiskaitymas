@@ -1,6 +1,12 @@
 #mainPage{
     width: 100%;
     height: 100vh;
+    padding: 0 3px;
+}
+@media (min-width: 576px){
+    #mainPage{
+        padding: 0 48px;
+    }
 }
 .bg2{
     background: rgba(0, 0, 0, .35) url(../resources/bg.jpg);
@@ -31,10 +37,15 @@
     font-size: 30px;
 }
 .text > p{
-    margin:30px 10px 30px;
+    margin:30px 15px 30px;
     text-align: justify;
     line-height: 40px;
     font-weight: 100;
+}
+@media (min-width: 576px){
+    .text > p{
+        text-align: center;
+    }
 }
 .text > p > a{
     color: white;
@@ -53,6 +64,13 @@
     align-items: center;
     padding-top: 40px;
 }
+@media (min-width: 576px){
+    .menu > ul{
+        flex-direction: row;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
 .menu > ul > a{
     width: 97%;
     height: 40px;
@@ -61,6 +79,13 @@
     line-height: 40px;
     color: white;
     font-weight: 100;
+    padding: 0 10px;
+}
+@media (min-width: 576px){
+    .menu > ul > a{
+        height: 60px;
+        line-height: 60px;
+    }
 }
 .menu > ul :first-child{
     border-radius: 5px 0 0 5px;
