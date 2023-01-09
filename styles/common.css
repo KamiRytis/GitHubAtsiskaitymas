@@ -1,6 +1,7 @@
 @import url('./main.css');
 @import url('./linijos.css');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+@import url("./tabs.css");
 
 *{
     padding: 0;
@@ -20,16 +21,4 @@
     --margin3: 1.5rem;
     --margin4: 2rem;
 
- }
- /* Mobile */
-@media (max-width: 576px){
-    :root{
-       --padding-sides: 0 1rem;
-    }
- }
- /* Desktop */
- @media (max-width: 1600px){
-    :root{
-       --padding-sides: 0 3rem;
-    }
  }
